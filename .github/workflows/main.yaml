@@ -1,16 +1,16 @@
-name: Jekyll site CI
+name: Hello World!
 
 on:
   push:
     branches:
-      - main  # 'main' 브랜치에 변경 사항이 푸시될 때 워크플로우가 실행됩니다.
+      - main  # Triggers the workflow on push events to the 'main' branch.
 
 jobs:
   build:
-      runs-on: ubuntu-latest
-	
-      steps:
-      - uses: actions/checkout@v2
-	
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Checks out your repository under $GITHUB_WORKSPACE, so your workflow can access it
+
       - name: Run a one-line script
         run: echo Hello, world!
