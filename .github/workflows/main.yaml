@@ -1,0 +1,25 @@
+name: GitHub Pages에 Jekyll 사이트 빌드 및 배포
+
+on:
+  push:
+    branches:
+      - main  # 기본 브랜치로 설정하세요
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Jekyll 사이트 빌드 및 테스트
+      uses: helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: GitHub Pages에 배포
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        deploy_branch: gh-pages  # GitHub Pages가 서빙할 브랜치
