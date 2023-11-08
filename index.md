@@ -1,30 +1,26 @@
 # Welcome to My Personal Homepage
 
 ## Introduction
-Hello! I'm [Your Name], a professional with over [X years] in [Your Field]. With a solid background in [Your Educational Field], I've developed a passion for [Your Interests or Industry Niches].
+Hello! I'm Jaejoon Yoo. I am a student studying Computer Science at Sungkyunkwan University, with a particular interest in Artificial Intelligence and Computer Vision.
 
 ### Career Summary
-Over the years, I've worked at [Company Names] where I honed my skills in [Industry Skills].
+In 2019, I developed an application for hospitalized patients using AI speakers at SK Planet, and in 2022, I developed a healthcare program utilizing real-time behavior recognition technology at LG U+. Since March of this year, I have been researching computer vision using deep learning as an undergraduate researcher at VCLab.
 
 ### Educational Background
-I completed my [Degree Type] in [Your Major] at [Your University], where I focused on [Your Study Focus].
+I entered the Software Department at Sungkyunkwan University in 2018 and am currently continuing my studies. I am planning to advance into the Artificial Intelligence Department at Sungkyunkwan University next year.
 
 ## Skills
-- **Programming Languages**: Python, JavaScript, C++
-- **Tools & Frameworks**: React, Node.js, Docker
-- **Soft Skills**: Leadership, Project Management, Communication
+- **Programming Languages**: Python, JavaScript, C
+- **Tools & Frameworks**: Pytorch, OpenCV, Node.js, Docker, Git
 
 ## Education
-- **[Degree Type]** in **[Your Major]** from **[Your University]**
-  - Key courses: Advanced Algorithms, Database Systems, Machine Learning
-- **[Any Other Degrees or Courses]**
+- **BS** in **Computer Science** from **Sungkyunkwan University**
+  - Key courses: Algorithms, Database, Machine Learning, Artificial Intelligence, Deep Learning
 
 ## Achievements and Certifications
-- **[Certification Name]** - [Issuing Organization]
-- **Award for [Award Title]** - [Awarding Institution], [Year]
-- **[Any Other Achievements, Honors, or Certifications]**
+- TOEIC 905
 
 ## Contact
-Feel free to reach out via email at [YourEmail@example.com] or connect with me on [GitHub](https://github.com/YourUsername).
+Feel free to reach out via email at dbwowns10@g.skku.edu or connect with me on [GitHub](https://github.com/dbwowns10).
 
 Thank you for visiting my page!
