@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # Node.js 16과 호환되는 버전으로 업데이트
 
     - name: Jekyll 사이트 빌드 및 테스트
-      uses: helaili/jekyll-action@v2
+      uses: helaili/jekyll-action@2.2.0  # 호환 가능한 버전을 확인하세요
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
