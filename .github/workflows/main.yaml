@@ -7,19 +7,10 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # 가장 최신의 우분투 러너를 사용합니다.
-
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3  # 저장소를 체크아웃합니다.
-
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0'  # Jekyll이 요구하는 루비 버전을 설정합니다. 프로젝트에 맞는 버전을 지정하세요.
-        bundler-cache: true  # 번들러 캐시를 사용하여 의존성 설치 시간을 단축합니다.
-
-    - name: Build and test Jekyll site
-      run: |
-        bundle install  # Jekyll과 필요한 의존성을 설치합니다.
-        bundle exec jekyll build  # 사이트를 빌드합니다.
+      runs-on: ubuntu-latest
+	
+      steps:
+      - uses: actions/checkout@v2
+	
+      - name: Run a one-line script
+        run: echo Hello, world!
